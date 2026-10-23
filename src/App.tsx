@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type FormEvent } from 'react';
-import { Activity, ArrowDownLeft, ArrowUpRight, Download, Eye, EyeOff, Moon, Plus, RefreshCw, Settings2, ShieldCheck, Sun, Trash2, Wallet, X } from 'lucide-react';
+import { Activity, ArrowDownLeft, ArrowUpRight, Download, Eye, EyeOff, History as HistoryIcon, Moon, Plus, RefreshCw, Search, Settings2, ShieldCheck, Sun, Trash2, Wallet, X } from 'lucide-react';
 
 type TxType='Buy'|'Sell'|'Deposit'|'Withdrawal';
 type Tx={id:string;type:TxType;symbol:string;quantity:number;price:number;fee:number;date:string;createdAt:number};
